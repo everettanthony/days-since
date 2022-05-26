@@ -37,15 +37,9 @@ body {
 	text-align: center;
 }
 
-@media (min-width: 350px) {
-	.counter {
-		margin: 0 0 3rem;
-	}
-}
-
 @media (min-width: 412px) {
 	.counter {
-		margin: 0 0 7rem;	
+		margin: 0 0 2rem;	
 	}
 }
 
