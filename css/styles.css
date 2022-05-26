@@ -1,0 +1,115 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background: url('../img/us-gun.svg') no-repeat 50% 30%;
+	background-size: 90%;
+	background-color: #bc3c3e;
+	font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 768px) {
+	body {
+		background-position: 5rem 3rem;
+		background-size: 80%;
+	}
+}
+
+@media (min-width: 1400px) {
+	body {
+		background-position: 5rem 3rem;
+		background-size: 60%;
+	}
+}
+
+.gun {
+	align-items: flex-end;
+	display: flex;
+	height: 100%;
+	justify-content: flex-end;
+	padding: 2rem;
+	width: 100%;
+}
+
+.counter {
+	margin: 0;
+	text-align: center;
+}
+
+@media (min-width: 350px) {
+	.counter {
+		margin: 0 0 3rem;
+	}
+}
+
+@media (min-width: 412px) {
+	.counter {
+		margin: 0 0 7rem;	
+	}
+}
+
+@media (min-width: 540px) {
+	.counter {
+		margin: 0 0 1.5rem;	
+	}
+}
+
+@media (min-width: 820px) {
+	.counter {
+		margin: 0 0 4.5rem;	
+	}
+}
+
+@media (min-width: 1400px) {
+	.counter {
+		margin: 0 4.5rem 6rem 0;		
+	}
+}
+
+.count {
+	color: #9b2729;
+	font-family: 'Creepster', cursive;
+	font-size: 9rem;
+	line-height: 1em;
+}
+
+@media (min-width: 412px) {
+	.count {
+		font-size: 10rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.count {
+		font-size: 14rem;	
+	}
+}
+
+.msg {
+	color: #000;
+	font-size: 1.5rem;
+}
+
+@media (min-width: 412px) {
+	.msg {
+		font-size: 2.25rem;
+		line-height: 1.2em;
+	}
+}
+
+@media (min-width: 1200px) {
+	.msg {
+			font-size: 2rem;
+	}
+}
+
+@media (min-width: 1400px) {
+	.msg {
+			font-size: 3rem;
+	}
+}
+
+.msg span {
+	font-weight: 600;
+}
