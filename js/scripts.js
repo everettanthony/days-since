@@ -20,6 +20,6 @@ function daysSince(countFrom) {
     
   days = Math.floor(timeDifference / (secondsInADay) * 1);
 
-  const count = document.querySelector('.count');
+  const count = document.querySelector('.msg-count');
   count.innerHTML = days;
 }

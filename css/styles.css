@@ -1,116 +1,95 @@
-html, body {
+html, 
+body, 
+.days, 
+.days .row {
 	height: 100%;
 }
 
 body {
-	background: url('../img/us-gun.svg') no-repeat 50% 30%;
-	background-size: 90%;
 	background-color: #bc3c3e;
 	font-family: 'Poppins', sans-serif;
 }
 
-@media (min-width: 768px) {
-	body {
-		background-position: 5rem 3rem;
-		background-size: 80%;
-	}
+.days {
+	padding: 3rem 5rem;
 }
 
-@media (min-width: 1400px) {
-	body {
-		background-position: 5rem 3rem;
-		background-size: 60%;
-	}
+@media (min-width: 994px) {
+	.days {
+		padding: 0 4rem;
+	}	
 }
 
-body.no-bg {
-	background-image: none;
-}
-
-.gun {
-	align-items: flex-end;
+.days-col {
+	align-items: center;
 	display: flex;
-	height: 100%;
-	justify-content: flex-end;
-	padding: 2rem;
-	width: 100%;
+	justify-content: center;
 }
 
-.counter {
-	margin: 0;
-	text-align: center;
+.col-gun {
+	align-items: flex-end;
 }
 
-@media (min-width: 540px) {
-	.counter {
-		margin: 0 0 1.5rem;	
-	}
+.col-msg {
+	align-items: flex-start;	
 }
 
-@media (min-width: 820px) {
-	.counter {
-		margin: 0 0 4.5rem;	
-	}
+@media (min-width: 994px) {
+	.col-gun,
+	.col-msg {
+		align-items: center;
+	}	
+}
+ 
+.msg {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+	padding-top: 1rem;
 }
 
-@media (min-width: 1400px) {
-	.counter {
-		margin: 0 4.5rem 6rem 0;		
-	}
+@media (min-width: 994px) {
+	.msg {
+		padding: 0;
+	}	
 }
 
-.count {
+.msg-count {
 	color: #9b2729;
 	font-family: 'Creepster', cursive;
 	font-size: 9rem;
 	line-height: 1em;
 }
 
-@media (min-width: 412px) {
-	.count {
-		font-size: 10rem;
+@media (min-width: 994px) {
+	.msg-count {
+		font-size: 14rem;
 	}
 }
 
-@media (min-width: 768px) {
-	.count {
-		font-size: 14rem;	
-	}
-}
-
-.msg {
+.msg-body {
 	color: #000;
-	font-size: 1.5rem;
+	font-size: 1.75rem;
+	line-height: 1.25em;
+	text-align: center;
 }
 
-@media (min-width: 412px) {
-	.msg {
+@media (min-width: 994px) {
+	.msg-body {
 		font-size: 2.25rem;
-		line-height: 1.2em;
 	}
 }
 
-@media (min-width: 1200px) {
-	.msg {
-			font-size: 2rem;
-	}
-}
-
-@media (min-width: 1400px) {
-	.msg {
-			font-size: 3rem;
-	}
-}
-
-.msg span {
+.msg-body span {
 	font-weight: 600;
 }
 
-.designer a {
+.msg-designer a {
   color: #9b2729;
-  font-size: .8rem;
+  font-size: .9rem;
 }
 
-.designer a:hover {
+.msg-designer a:hover {
   color: #721517;
 }
