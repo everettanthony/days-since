@@ -13,7 +13,4 @@ function daysSince(countFrom) {
 
   const count = document.querySelector('.count');
   count.innerHTML = days;
-
-  clearTimeout(daysSince.interval);
-  daysSince.interval = setTimeout(function(){ daysSince(countFrom); }, 1000);
 }
