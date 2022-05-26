@@ -1,18 +1,8 @@
 window.onload = function() {
   daysSince('May 24, 2022 00:00:00'); 
-
-  window.addEventListener('resize', function() {
-    if (window.innerWidth > 640 && window.innerHeight < 830) {
-      document.body.classList.add('no-bg');
-    }
-    else {
-      document.body.classList.remove('no-bg');      
-    }
-  });
 };
 
 function daysSince(countFrom) {
-
   let now = new Date(),
       startDay = new Date(countFrom),
       timeDifference = (now - startDay);  
