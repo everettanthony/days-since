@@ -12,4 +12,5 @@ function daysSince(countFrom) {
 
   const count = document.querySelector('.msg-count');
   count.innerHTML = days;
+  document.title = `${days} Days Since the Last Mass Shooting in the U.S.`;
 }
