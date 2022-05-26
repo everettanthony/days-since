@@ -41,12 +41,6 @@ body.no-bg {
 	text-align: center;
 }
 
-@media (min-width: 412px) {
-	.counter {
-		margin: 0 0 2rem;	
-	}
-}
-
 @media (min-width: 540px) {
 	.counter {
 		margin: 0 0 1.5rem;	
