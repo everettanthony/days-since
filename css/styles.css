@@ -91,10 +91,14 @@ body {
 	font-weight: 600;
 }
 
+.msg-designer {
+  line-height: 1.2em;
+  text-align: center;
+}
+
 .msg-designer a {
   color: #9b2729;
   font-size: .9rem;
-  text-align: center;
 }
 
 .msg-designer a:hover {
