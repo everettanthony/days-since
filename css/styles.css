@@ -94,6 +94,7 @@ body {
 .msg-designer a {
   color: #9b2729;
   font-size: .9rem;
+  text-align: center;
 }
 
 .msg-designer a:hover {
