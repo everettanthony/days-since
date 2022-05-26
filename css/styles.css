@@ -33,6 +33,10 @@ body {
 	}
 }
 
+body.no-bg {
+	background-image: none;
+}
+
 .gun {
 	align-items: flex-end;
 	display: flex;
