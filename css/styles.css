@@ -111,3 +111,12 @@ body.no-bg {
 .msg span {
 	font-weight: 600;
 }
+
+.designer a {
+  color: #9b2729;
+  font-size: .8rem;
+}
+
+.designer a:hover {
+  color: #721517;
+}
