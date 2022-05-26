@@ -16,16 +16,6 @@ body {
 	}
 }
 
-@media only screen 
-    and (device-width: 414px) 
-    and (device-height: 896px) 
-    and (-webkit-device-pixel-ratio: 3)
-    and (orientation: landscape)  {
-	body {
-		background-size: 50%;
-	}    	
-}
-
 @media (min-width: 1400px) {
 	body {
 		background-position: 5rem 3rem;
@@ -55,16 +45,6 @@ body.no-bg {
 	.counter {
 		margin: 0 0 2rem;	
 	}
-}
-
-@media only screen 
-    and (device-width: 414px) 
-    and (device-height: 896px) 
-    and (-webkit-device-pixel-ratio: 3)
-    and (orientation: landscape)  {
-	.counter {
-		margin: 0 0 1rem;	
-	}    	
 }
 
 @media (min-width: 540px) {
@@ -98,16 +78,6 @@ body.no-bg {
 	}
 }
 
-@media 
-    and (min-width: 414px) 
-    and (min-height: 896px) 
-    and (-webkit-device-pixel-ratio: 3)
-    and (orientation: landscape)  {
-	.count {
-		margin: 0 0 10rem;	
-	}    	
-}
-
 @media (min-width: 768px) {
 	.count {
 		font-size: 14rem;	
@@ -124,16 +94,6 @@ body.no-bg {
 		font-size: 2.25rem;
 		line-height: 1.2em;
 	}
-}
-
-@media only screen 
-    and (device-width: 414px) 
-    and (device-height: 896px) 
-    and (-webkit-device-pixel-ratio: 3)
-    and (orientation: landscape)  {
-	.msg {
-		font-size: 1.5rem;	
-	}    	
 }
 
 @media (min-width: 1200px) {
