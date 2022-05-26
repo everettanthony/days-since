@@ -20,6 +20,12 @@ body {
 	}	
 }
 
+@media (min-width: 1400px) {
+	.days {
+		padding: 0 9rem;
+	}	
+}
+
 .days-col {
 	align-items: center;
 	display: flex;
