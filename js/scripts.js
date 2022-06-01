@@ -1,5 +1,5 @@
 window.onload = function() {
-  daysSince('May 24, 2022 00:00:00'); 
+  daysSince('June 1, 2022 00:00:00'); 
 };
 
 function daysSince(countFrom) {
